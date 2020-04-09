@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h2>Hi Lara
+    <h2>
+      New Lesson Request from <%=@lesson.client_name%>
+    </h2>
+    <h3>Contact Info: <%=@lesson.client_email%>, <%=@lesson.client_phone%></h3>
+    <p>
+        <%=@lesson.date%>: <%=@lesson.time%><br>
+        <%=@lesson.location%><br>
+    </p>
+    <p>
+        Student Info: <%@lesson.student_name%> - <%=@lesson.student_age%><br>
+        <%=@lesson.student_experience%><br>
+        <%=@lesson.student_goals%>
+
+        <%= link_to 'View Bookings', "http://localhost:3001/requests" %>
+    </p>
+  </body>
+</html>

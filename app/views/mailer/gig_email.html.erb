@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h2>Hi Lara
+    <h2>
+      New Gig Request from <%=@gig.client_name%>
+    </h2>
+    <h3>Contact Info: <%=@gig.client_email%>, <%=@gig.client_phone%></h3>
+    <p>
+        <%=@gig.date%>: <%=@gig.start_time%> - <%=@gig.end_time%><br>
+        <%=@gig.location%><br>
+        <%=@gig.description%><br>
+        <%=@gig.rep%><br>
+        <% if @gig.public == false %>       
+            Private Gig 
+        <% else %> 
+            Public Gig
+        <% end %>
+
+        <%= link_to 'View Bookings', "http://localhost:3001/requests" %>
+    </p>
+  </body>
+</html>
