@@ -1,4 +1,5 @@
 class LessonsController < ApplicationController
+    skip_before_action :authorized, only: [:create]
     
     def create
         lesson = Lesson.create!(lesson_params)
@@ -7,14 +8,14 @@ class LessonsController < ApplicationController
     end
 
     def index
-        lessons = Lesson.all
+        lessons = Lesson.select{|lesson| lesson.status == "requested"}
         render json: lessons
     end
     
     def update
         lesson = Lesson.find_by(id: params[:id])
         lesson.update(:status => params[:status])
-        render json: lesson
+        render json: lesson.reload
     end
 
 

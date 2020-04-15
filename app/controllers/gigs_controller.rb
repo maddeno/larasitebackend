@@ -1,5 +1,6 @@
 class GigsController < ApplicationController
-
+    skip_before_action :authorized, only: [:create, :show]
+    
     def create
         gig = Gig.create!(gig_params)
         Mailer.gig_email(gig, Admin.last).deliver_now
@@ -7,14 +8,19 @@ class GigsController < ApplicationController
     end
 
     def index
-        gigs = Gig.all
+        gigs = Gig.select{|gig| gig.status == "requested"}
+        render json: gigs
+    end
+
+    def show
+        gigs = Gig.select{|gig| gig.public == true && gig.status == "accepted"}
         render json: gigs
     end
 
     def update
         gig = Gig.find_by(id: params[:id])
         gig.update(:status => params[:status])
-        render json: gig
+        render json: gig.reload
     end
 
     private
