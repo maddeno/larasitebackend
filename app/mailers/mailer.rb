@@ -1,5 +1,5 @@
 class Mailer < ApplicationMailer
-    default from: "mod5projecttest@gmail.com"
+    default from: "laramaddenviolinist@gmail.com"
 
     def sample_email(admin)
         @admin = Admin.first

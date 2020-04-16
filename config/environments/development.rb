@@ -43,19 +43,14 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
   :address              => "smtp.gmail.com",
   :port                 => 587,
-  :user_name            => "mod5projecttest@gmail.com",
-  :password             => "testingmod52020",
+  :user_name            => "laramaddenviolinist@gmail.com",
+  :password             => "mod5Flatiron",
   :authentication       => "plain",
   :enable_starttls_auto => true
   
 }
 
-#   config.action_mailer.smtp_settings = {
-#   address: 'localhost',
-#   port: 3000,
-#   # enable_starttls_auto: true
-#   #authentication: 'login'
-# }
+
   
 
   # Print deprecation notices to the Rails logger.

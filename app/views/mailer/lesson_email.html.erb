@@ -10,15 +10,17 @@
     </h2>
     <h3>Contact Info: <%=@lesson.client_email%>, <%=@lesson.client_phone%></h3>
     <p>
-        <%=@lesson.date%>: <%=@lesson.time%><br>
-        <%=@lesson.location%><br>
+        When: <%=@lesson.date%>: <%=@lesson.time%><br>
+        Where:  <%=@lesson.location%><br>
     </p>
     <p>
-        Student Info: <%@lesson.student_name%> - <%=@lesson.student_age%><br>
-        <%=@lesson.student_experience%><br>
-        <%=@lesson.student_goals%><br>
+        Student Info
+        Name: <%=@lesson.student_name%>
+        Age: <%=@lesson.student_age%><br>
+        Experience: <%=@lesson.student_experience%><br>
+        Goals: <%=@lesson.student_goals%><br>
 
-        <%= link_to 'View Bookings', "http://localhost:3001/bookings" %>
+        <%= link_to 'View and Respond to Bookings', "http://localhost:3001/bookings" %>
     </p>
   </body>
 </html>

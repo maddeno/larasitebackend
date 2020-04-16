@@ -10,9 +10,9 @@
     </h2>
     <h3>Contact Info: <%=@gig.client_email%>, <%=@gig.client_phone%></h3>
     <p>
-        <%=@gig.date%>: <%=@gig.start_time%> - <%=@gig.end_time%><br>
-        <%=@gig.location%><br>
-        <%=@gig.description%><br>
+        When: <%=@gig.date%>: <%=@gig.start_time%> - <%=@gig.end_time%><br>
+        Where: <%=@gig.location%><br>
+        Description: <%=@gig.description%><br>
         <%=@gig.rep%><br>
         <% if @gig.public == false %>       
             Private Gig 
@@ -20,7 +20,7 @@
             Public Gig
         <% end %><br>
 
-        <%= link_to 'View Bookings', "http://localhost:3001/bookings" %>
+        <%= link_to 'View and Respond to Bookings', "http://localhost:3001/bookings" %>
     </p>
   </body>
 </html>
