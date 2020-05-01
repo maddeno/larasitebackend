@@ -18,3 +18,5 @@ When a new gig or lesson is created, ActionMailer relays the details of the book
 Front-end users booking gigs have the option to instantiate their gig as "public". If a gig is both marked "public" by the client and "accepted" by the musician, then the details of that gig will be appear in the "Upcoming Performance Calendar" component on the front-end. 
 
 To start, run 'rails s' to start the back-end server. In another terminal run 'npm start'. You may be prompted with "Something is running on port 3000. Would you like to run the app on another port instead?" Enter 'y' for yes. 
+
+Link to front-end: https://github.com/maddeno/larasitefrontend
