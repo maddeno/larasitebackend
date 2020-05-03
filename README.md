@@ -3,10 +3,13 @@
 Lara's Website
 
 Quick Links:
+
 Frontend Repo: https://github.com/maddeno/larasitefrontend
+
 Demo: https://drive.google.com/open?id=1tj2AR-t9BMg9dqSy0U-fYLffZWxYDoDB
 
 Technologies:
+
 ruby 2.6.1p3,
 
 rails 6.0., 6.0.2.2
