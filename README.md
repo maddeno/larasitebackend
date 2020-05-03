@@ -2,6 +2,8 @@
 
 Lara's Website
 
+![Image of Homepage](https://drive.google.com/open?id=1XwDZIt0PrIvcHa554p52CP2EvZobJIbs)
+
 Quick Links:
 
 Frontend Repo: https://github.com/maddeno/larasitefrontend
