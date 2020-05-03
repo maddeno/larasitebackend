@@ -25,5 +25,4 @@ When a new gig or lesson is created, ActionMailer relays the details of the book
 
 Front-end users booking gigs have the option to instantiate their gig as "public". If a gig is both marked "public" by the client and "accepted" by Lara, then the details of that gig will be appear in the "Upcoming Performance Calendar" component on the front-end. 
 
-To start, simply run ```rails s```. Follow the link at the top of the Readme to the front-end repo, and start the server by running ```npm start```. 
-
+To start, simply run ```rails s```. Follow the link at the top of the Readme to the front-end repo, and start the server by running ```npm start```.
