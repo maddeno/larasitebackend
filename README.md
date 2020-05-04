@@ -2,7 +2,7 @@
 
 Lara's Website
 
-![Image of Homepage](https://drive.google.com/open?id=1XwDZIt0PrIvcHa554p52CP2EvZobJIbs)
+![Image of Homepage](http://drive.google.com/uc?export=view&id=/d/1XwDZIt0PrIvcHa554p52CP2EvZobJIbs)
 
 Quick Links:
 
