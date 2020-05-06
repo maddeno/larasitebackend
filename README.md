@@ -12,7 +12,7 @@
 ### Technologies: ruby 2.6.1p3, rails 6.0.2.2, actionmailer 6.0.2.2, bcrypt 3.1.7, jwt 2.2
 
 
-This app is a professional website for my sister, Lara. She is a concert violinist / music teacher, and needed her own website as a promotional tool as well for prospective clients to book gigs or lessons. Functionality is based on Lara's specifications: she wanted to provide users with all the information they would when looking to hire a musician. Forms are available to request bookings, and contain all the relevant input fields for Lara to assess the job. 
+This app is a professional website for my sister, Lara. She is a concert violinist / music teacher, and needed her own website as a promotional tool as well for prospective clients to book gigs or lessons. Functionality is based on Lara's specifications: she wanted to provide users with all the information they would need when looking to hire a musician. Forms are available to request bookings, and contain all the relevant input fields for Lara to assess the job. 
 
 This Rails back-end consists of a Postgresql database that stores login data for Lara as well as all of her bookings. Gig and lesson bookings are created based on user input on the frond-end, and are instantiated with a status attribute set to "requested".
 
