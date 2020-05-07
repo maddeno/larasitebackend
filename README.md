@@ -21,12 +21,12 @@
   - jwt 2.2
 
 ### Installing:
-  - Clone this repo to your local machine. ```git clone https://github.com/maddeno/larasitebackend```
+  - Clone this repo to your local machine. ```git clone https://github.com/maddeno/larasitebackend`
   - run bundle install to install required dependencies
-  - run rails db:create to create a database locally.
-  - run rails db:migrate to create tables into the database.
-  - run rails db:seed to create seed data.
-  - run rails s to run the server.
+  - run ```rails db:create` to create a database locally.
+  - run ```rails db:migrate` to create tables into the database.
+  - run ```rails db:seed to`create seed data.
+  - run ```rails s` to run the server.
   - to start the full app, don't forget to install the front-end: https://github.com/maddeno/larasitefrontend
 
 
