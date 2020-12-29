@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h2>Hi Lara
+    <h2>
+      New Student Request from <%=@student.client_name%>
+    </h2>
+    <h3>Contact Info: <%=@student.client_email%>, <%=@student.client_phone%></h3>
+  
+    <p>
+        Student Info
+        Name: <%=@student.student_name%>
+        Age: <%=@student.student_age%><br>
+        Experience: <%=@student.student_experience%><br>
+        Goals: <%=@student.student_goals%><br>
+
+        <%= link_to 'View and Respond to Bookings', "http://localhost:3001/bookings" %>
+    </p>
+  </body>
+</html>

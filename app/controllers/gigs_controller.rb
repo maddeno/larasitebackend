@@ -25,7 +25,7 @@ class GigsController < ApplicationController
 
     private
     def gig_params
-        params.require(:gig).permit(:admin_id, :client_name, :client_email, :client_phone, :date, :start_time, :end_time, :location, :description, :public, :rep, :status)
+        params.require(:gig).permit(:client_name, :client_email, :client_phone, :date, :start_time, :end_time, :location, :description, :public, :rep, :status)
     end
 
 end
